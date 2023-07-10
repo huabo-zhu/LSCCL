@@ -2,18 +2,28 @@
 
 A novel end-to-end sub-pixel checkerboard corner detection method.
 
+Have fun
+
+------
+
+1. **Create synthetic dataset**:
+
 ```python
 create_dataset.py
 ```
 
 The examples of background and texture images required for synthesizing data are shown in the folder data/creat_dataset. Please add your data.
 
-Train model:
+2. **Train model**:
+
+   Due to the limited performance of our GPU, we did not train larger image sizes. If you are interested, you can also use larger image sizes for training.
 
 ```python
 python trian.py
 ```
-Test your image:
+3. **Test your image**:
+
+   We provide training weights so you can test your own dataset.  It should be noted that if your test image resolution is too large, please zoom in to a width and height of less than 600 pixels first (this will have the best effect). 
 
 ```python
 python demo.py
