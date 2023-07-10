@@ -1,4 +1,4 @@
-# Learning Sub-pixel Checkerboard Corner  Detection
+# Checkerboard Corner  Detection
 Create dataset:
 ```python
 create_dataset.py
