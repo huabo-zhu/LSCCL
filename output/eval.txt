@@ -1,0 +1,2 @@
+iter:500,acc:0.145,recall:100.0,precision:99.8,F:99.9
+iter:1000,acc:0.129,recall:100.0,precision:99.5,F:99.8
