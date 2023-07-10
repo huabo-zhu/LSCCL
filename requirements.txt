@@ -1,0 +1,5 @@
+opencv_python
+scikit-learn == 1.2.0
+python >= 3.8.15
+torch >=1.1.0
+

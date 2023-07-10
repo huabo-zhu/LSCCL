@@ -85,7 +85,7 @@ def crop_image(img, points):
 
 
 # distortion
-# if you want to use kd_tree, please install low version scikit-learn(my version 0.24.1)
+# if you want to use kd_tree, please install low version scikit-learn(my version 0.24.1 and python3.8.15)
 def distortion(warped, points, dim, tree=False):
     def mapPoints(real_corners, mapx, mapy, tree=True):
         from sklearn.neighbors import KDTree
@@ -300,7 +300,7 @@ def blend_images(back_img, front_img, remove_edge_balck=True):
 
 if __name__ == "__main__":
     num_stat = 0
-    num_count = 20000
+    num_count = 10
     num_end = num_stat + num_count
     isSave = True
     isTrain = True
