@@ -1,5 +1,8 @@
-# Learning Sub-pixel Checkerboard Corner  Detection
+# Checkerboard Corner  Detection
+A novel end-to-end sub-pixel checkerboard corner detection method.
+
 Create dataset:
+
 ```python
 create_dataset.py
 ```
@@ -20,6 +23,12 @@ python demo.py
 
 
 ## Citation
+
+If you find this code useful for your research, please use the following BibTeX entry.
+
+```
+We will add information after the paper is published. For the sake of fairness in the review, we will not disclose any relevant information for the time being.
+```
 
 Our code draws inspiration from 'Learning Multi Instance Sub pixel Point Localization'. Please cite the following paper:
 
