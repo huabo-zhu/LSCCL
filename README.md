@@ -1,4 +1,4 @@
-# Checkerboard Corner  Detection
+# Sub-pixel Checkerboard Corner Localization
 
 A novel end-to-end sub-pixel checkerboard corner detection method.
 
